@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# -l flag uses last command from history file instead
+if [ $1 == -l ]
+  then
+    full=`awk  'END{print}' ~/.bash_history`
+    echo "Enter the short command to alias"
+    read short
+    echo "alias "$short"='$full'" >> ~/.bash_profile
+    source ~/.bash_profile
+    exit 0
+fi
+
+echo "Enter the short command to alias"
+read short
+echo "Enter the full command"
+read full
+
+echo "alias "$short"='$full'" >> ~/.bash_profile
+source ~/.bash_profile
