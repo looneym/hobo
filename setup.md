@@ -26,6 +26,7 @@ source ~/.zshrc
 git clone git@github.com:looneym/hobo.git
 cd hobo
 mv .zshrc ~/.zshrc
+touch ~/.transient
 source ~/.zshrc
 
 # get user programs
