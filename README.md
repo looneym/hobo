@@ -8,9 +8,13 @@ Designed to allow me to easily switch between machines without seeing
 
 # Initial setup
 `git clone git@github.com:looneym/hobo.git`
+
 `cd hobo`
+
 `cp zshrc ~/.zshrc`
+
 `touch ~/.transient`
+
 `source ~/.zshrc`
 
 At this point you have access to the built-in aliases for managing these files. 
