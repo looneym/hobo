@@ -26,6 +26,7 @@ alias venvup='source venv/bin/activate'
 alias venvinit='virtualenv venv && source venv/bin/activate'
 alias zedit='vi ~/.zshrc'
 alias zsource='source ~/.zshrc'
+alias zshrep='cp ~/hobo/zshrc ~/.zshrc' 
 alias lsdir='ls -d */'
 alias pysrv='python -m SimpleHTTPServer'
 alias procfind="ps ax | grep $1"
