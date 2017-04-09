@@ -22,12 +22,5 @@ cp cobalt2.zsh-theme ~/.oh-my-zsh/themes/
 vi  ~/.zshrc
 source ~/.zshrc
 
-# get dotfiles and install
-git clone git@github.com:looneym/hobo.git
-cd hobo
-mv .zshrc ~/.zshrc
-touch ~/.transient
-source ~/.zshrc
-
 # get user programs
 brew cask install atom
