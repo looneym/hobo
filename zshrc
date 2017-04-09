@@ -21,15 +21,14 @@ source $ZSH/oh-my-zsh.sh
 #
 ################################################################################
 
-# aliases go here
-alias venvup='source venv/bin/activate'
-alias venvinit='virtualenv venv && source venv/bin/activate'
+# ENV variables
+export DEFAULT_USER='looneym'
+
+# manipulate dotfiles
 alias zedit='vi ~/.zshrc'
 alias zsource='source ~/.zshrc'
-alias zrep='cp ~/hobo/zshrc ~/.zshrc' 
-alias lsdir='ls -d */'
-alias pysrv='python -m SimpleHTTPServer'
-alias procfind="ps ax | grep $1"
+alias zimp='cp ~/hobo/zshrc ~/.zshrc' 
+alias zexp='cp ~/.zshrc ~/hobo/zshrc' 
 
 # These aliases required to use metasploit is osx
 alias msfconsole="/usr/local/share/metasploit-framework && ./msfconsole && cd -"
@@ -44,5 +43,9 @@ alias msfrpcd="/usr/local/share/metasploit-framework && ./msfrpcd && cd -"
 alias msfupdate="/usr/local/share/metasploit-framework && ./msfupdate && cd -"
 alias msfvenom="/usr/local/share/metasploit-framework && ./msfvenom && cd -"
 
-# ENV variables
-export DEFAULT_USER='looneym'
+# misc utilities
+alias venvup='source venv/bin/activate'
+alias venvinit='virtualenv venv && source venv/bin/activate'
+alias lsdir='ls -d */'
+alias pysrv='python -m SimpleHTTPServer'
+alias procfind="ps ax | grep $1"
