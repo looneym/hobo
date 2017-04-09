@@ -29,6 +29,8 @@ alias zedit='vi ~/.zshrc'
 alias zsource='source ~/.zshrc'
 alias zimp='cp ~/hobo/zshrc ~/.zshrc' 
 alias zexp='cp ~/.zshrc ~/hobo/zshrc' 
+alias vimp='cp ~/hobo/vimrc ~/.vimrc'
+alias vexp='cp ~/.vimrc ~/hobo/vimrc'
 
 # These aliases required to use metasploit is osx
 alias msfconsole="/usr/local/share/metasploit-framework && ./msfconsole && cd -"
