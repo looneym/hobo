@@ -7,7 +7,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-export ZSH=/Users/Micheal/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 ZSH_THEME="cobalt2"
 ENABLE_CORRECTION="true"
 
@@ -26,7 +26,7 @@ alias venvup='source venv/bin/activate'
 alias venvinit='virtualenv venv && source venv/bin/activate'
 alias zedit='vi ~/.zshrc'
 alias zsource='source ~/.zshrc'
-alias zshrep='cp ~/hobo/zshrc ~/.zshrc' 
+alias zrep='cp ~/hobo/zshrc ~/.zshrc' 
 alias lsdir='ls -d */'
 alias pysrv='python -m SimpleHTTPServer'
 alias procfind="ps ax | grep $1"
